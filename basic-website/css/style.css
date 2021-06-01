@@ -69,6 +69,14 @@ header a:hover{
     color: #ffffff;
 }
 
+.dark-bg{
+    background: #26324c;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Showcase */
 #showcase{
     min-height: 400px;
@@ -124,6 +132,18 @@ header a:hover{
 
 #boxes .box img{
     width: 90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#about-article{
+    float: left;
+    width: 65%;
 }
 
 /* Footer */
