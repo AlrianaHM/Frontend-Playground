@@ -72,7 +72,8 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height: 400px;
-    background:url(../img/showcase.jpg) no-repeat 0;
+    background:url(../img/showcase.jpg) no-repeat 0; 
+    background-size: cover;
     text-align: center;
     color: #ffffff;
 }
@@ -110,7 +111,6 @@ header a:hover{
 }
 
 /* Boxes */
-
 #boxes{
     margin-top: 20 px;
 }
@@ -124,4 +124,13 @@ header a:hover{
 
 #boxes .box img{
     width: 90px;
+}
+
+/* Footer */
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #8daff8;
+    text-align: center;
 }
